@@ -1,0 +1,190 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f0f4f5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px ;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5c8c3e;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #5c8c3e;
+}
+
+/* Hero Section */
+.hero {
+  background: url('books-bg.jpg') no-repeat center center/cover;
+  color: #023202;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #5c8c3e;
+  color: #fff;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #487130;
+  transform: scale(1.05);
+}
+
+/* About Section */
+.about {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+/* Featured Books */
+.featured-books {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.featured-books .book-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.book-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.book-item img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.book-item h3 {
+  font-size: 18px;
+  color: #5c8c3e;
+  margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea.form-control {
+  height: 150px;
+  resize: none;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+}

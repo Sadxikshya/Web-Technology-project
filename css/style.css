@@ -1,0 +1,145 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f0f4f5;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5c8c3e;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #5c8c3e;
+}
+
+/* Header */
+.hero {
+  background: #5c8c3e;
+  color: #fff;
+  padding: 0px 0;
+  text-align: center;
+}
+
+.hero .logo {
+  color: #fff;
+}
+
+/* Form Panel */
+.panel {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.panel-primary {
+  border-color: #a8d5ba;
+}
+
+.panel-heading {
+  background-color: #a8d5ba;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.panel-body {
+  padding: 30px;
+}
+
+.panel-footer {
+  padding: 15px;
+  background-color: #f8f9fa;
+  text-align: right;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border-color: #5c8c3e;
+  box-shadow: 0 0 5px rgba(92, 140, 62, 0.5);
+}
+
+input[type="submit"] {
+  background-color: #5c8c3e;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+  background-color: #487130;
+  transform: scale(1.05);
+}
+
+.radio-inline {
+  margin-right: 15px;
+}
+
+.radio-inline input[type="radio"] {
+  margin-right: 5px;
+}
